@@ -9,4 +9,5 @@ handle["/upload"] = requestHandlers.upload;
 handle["/show"] = requestHandlers.show;
 
 console.log("test git");
+console.log("test2 git");
 server.start(router.route, handle);
