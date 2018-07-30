@@ -8,7 +8,6 @@ handle["/start"] = requestHandlers.start;
 handle["/upload"] = requestHandlers.upload;
 handle["/show"] = requestHandlers.show;
 
-
 console.log("test git");
 console.log("test3 git");
 server.start(router.route, handle);
